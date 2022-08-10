@@ -1,4 +1,4 @@
-const arr=[11,25,12,36,48,98,65,32];
+const arr = [11, 25, 12, 36, 48, 98, 65, 32];
 //find the lowest number in an array
 function findLowest(arr) {
     var lowest = arr[0];
@@ -10,4 +10,3 @@ function findLowest(arr) {
     return lowest;
 }
 const lowest = findLowest(arr);
-console.log(lowest);
